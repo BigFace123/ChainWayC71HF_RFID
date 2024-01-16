@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--标题图片-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pf_logo" />
+    </LinearLayout>
+
+    <!--菜单容器部分-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="267dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/text_7"
+                android:textSize="10sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingLeft="5sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="起始地址:"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/TagStartAddr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/text_8"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/TagLength"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <!--扫码-->
+
+            <EditText
+                android:id="@+id/barcode"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:gravity="center_vertical"
+                android:hint="二维码"
+                android:maxLength="10"
+                android:paddingLeft="20sp"
+                android:text=""
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_readBarcode"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:background="#FFA500"
+                android:drawablePadding="10sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20sp"
+                android:text="@string/text_1"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/boxid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_vertical"
+                android:hint="ASCII"
+                android:paddingLeft="20sp"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/boxid_hex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center_vertical"
+                android:hint="HEX"
+                android:paddingLeft="20sp"
+                android:textSize="20sp" />
+
+            <!--读标签-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_readRFID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50sp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10sp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20sp"
+                    android:text="@string/text_2"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/writeContent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center_vertical"
+                android:hint="写入标签内容"
+                android:paddingLeft="20sp"
+                android:textSize="20sp" />
+
+            <!--写标签-->
+            <Button
+                android:id="@+id/btn_writeRFID"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:drawablePadding="10sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20sp"
+                android:text="@string/text_3"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_writeBarcodeToRFID"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:drawablePadding="10sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20sp"
+                android:text="@string/text_4"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="1sp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10sp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20sp"
+                    android:text="清屏"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,238 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:2:1-34:12
+MERGED from [DeviceAPI20220518.aar] C:\Users\song.lin\.gradle\caches\transforms-3\75e2d505aa23bd9384ebe4c641bccccb\transformed\jetified-DeviceAPI20220518\AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\song.lin\.gradle\caches\transforms-3\757ac581af73127aa40b33969052b5fc\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.GrenderG:Toasty:1.5.2] C:\Users\song.lin\.gradle\caches\transforms-3\1cf790b19c1d0ad9aa751b711549f6ff\transformed\jetified-Toasty-1.5.2\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\song.lin\.gradle\caches\transforms-3\c3ab16baca6abfde70e8f5c89a9ac24b\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\song.lin\.gradle\caches\transforms-3\17cf84b81ba042612a0d368da803e085\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\8c3548349ef77025047016c5dda9432d\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\song.lin\.gradle\caches\transforms-3\b5ed735c905bd3d7f997e1f6bf67e6a1\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\701387eaa3926e25c2efe37780125bc2\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\song.lin\.gradle\caches\transforms-3\19abce4f38e1ec6ff27863e8273b917f\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\song.lin\.gradle\caches\transforms-3\ec231e6b437b7873458e04fb63430f97\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\song.lin\.gradle\caches\transforms-3\47be3507980b36b19fef615241ca0625\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\song.lin\.gradle\caches\transforms-3\b32a771f59de6e9c2c0b0d1ce0e93e7e\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\ce4b65830b1091827edac2d515b2582a\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\79c5cdd8b0c20d3bcf8b46dadc9e5205\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\song.lin\.gradle\caches\transforms-3\63af4d2bf75c05c34d851eb10621c0af\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\3708e1988b77e0b6a64752a8e22c4c94\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\song.lin\.gradle\caches\transforms-3\97c236ec88dc47a5913bacc9f9c0b820\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\556d79d406a12979f80e9ff19df9f274\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\5b960fd20d38f976ab20889fb9b07c6a\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\e973f7de028aa99ab3ab6437bae11189\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\song.lin\.gradle\caches\transforms-3\6c6e76d29b58a567cab86834c5bf21eb\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.5.0] C:\Users\song.lin\.gradle\caches\transforms-3\06dbe87803c37ccbbf4ecfec69e88b49\transformed\core-1.5.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\song.lin\.gradle\caches\transforms-3\90f0913e95064c2b5fbcd59a377937d6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\song.lin\.gradle\caches\transforms-3\35f6dcc54accade4b9537b443bfe9c3d\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\464543f5f2a2271ad449e22867dfb8ba\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\song.lin\.gradle\caches\transforms-3\89ba21e6952defd433907880bd74e72b\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\song.lin\.gradle\caches\transforms-3\51d476dd03c1f123666ac7bef71664c6\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\song.lin\.gradle\caches\transforms-3\a7f35749401d9a669b467e3bb2ce2c69\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\25ae1df7fbe1a56934cb92b3716d536b\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\f54f853ef38a2ce40c06011edf9061cb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\9573ae127da8c395d39451042d90c7a8\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\8a62adf2d8de9439e41e9c6e2cee6622\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\song.lin\.gradle\caches\transforms-3\7a27a0c9ed2e422ef89efa6b0f94400e\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\song.lin\.gradle\caches\transforms-3\7e18f1ed63cde7f02c8501831fbead59\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\9a4a1f57159e50cb8444b8198ee5a9f1\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\abb91d020619b484ebe99b8d01ea6d71\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\f1c14a6fd37e7451db986370879d8977\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:2:1-34:12
+		INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:2:1-34:12
+		INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:6:5-65
+MERGED from [DeviceAPI20220518.aar] C:\Users\song.lin\.gradle\caches\transforms-3\75e2d505aa23bd9384ebe4c641bccccb\transformed\jetified-DeviceAPI20220518\AndroidManifest.xml:13:5-65
+MERGED from [DeviceAPI20220518.aar] C:\Users\song.lin\.gradle\caches\transforms-3\75e2d505aa23bd9384ebe4c641bccccb\transformed\jetified-DeviceAPI20220518\AndroidManifest.xml:13:5-65
+	android:name
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:6:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:7:22-63
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:11:5-76
+MERGED from [DeviceAPI20220518.aar] C:\Users\song.lin\.gradle\caches\transforms-3\75e2d505aa23bd9384ebe4c641bccccb\transformed\jetified-DeviceAPI20220518\AndroidManifest.xml:14:5-76
+MERGED from [DeviceAPI20220518.aar] C:\Users\song.lin\.gradle\caches\transforms-3\75e2d505aa23bd9384ebe4c641bccccb\transformed\jetified-DeviceAPI20220518\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:11:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:12:5-79
+MERGED from [DeviceAPI20220518.aar] C:\Users\song.lin\.gradle\caches\transforms-3\75e2d505aa23bd9384ebe4c641bccccb\transformed\jetified-DeviceAPI20220518\AndroidManifest.xml:11:5-79
+MERGED from [DeviceAPI20220518.aar] C:\Users\song.lin\.gradle\caches\transforms-3\75e2d505aa23bd9384ebe4c641bccccb\transformed\jetified-DeviceAPI20220518\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:13:22-73
+application
+ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:15:5-32:19
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\song.lin\.gradle\caches\transforms-3\757ac581af73127aa40b33969052b5fc\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\song.lin\.gradle\caches\transforms-3\757ac581af73127aa40b33969052b5fc\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\song.lin\.gradle\caches\transforms-3\c3ab16baca6abfde70e8f5c89a9ac24b\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\song.lin\.gradle\caches\transforms-3\c3ab16baca6abfde70e8f5c89a9ac24b\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.5.0] C:\Users\song.lin\.gradle\caches\transforms-3\06dbe87803c37ccbbf4ecfec69e88b49\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] C:\Users\song.lin\.gradle\caches\transforms-3\06dbe87803c37ccbbf4ecfec69e88b49\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\song.lin\.gradle\caches\transforms-3\90f0913e95064c2b5fbcd59a377937d6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\song.lin\.gradle\caches\transforms-3\90f0913e95064c2b5fbcd59a377937d6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] C:\Users\song.lin\.gradle\caches\transforms-3\06dbe87803c37ccbbf4ecfec69e88b49\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:20:9-35
+	android:label
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:18:9-41
+	android:roundIcon
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:19:9-54
+	android:icon
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:17:9-43
+	android:allowBackup
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:16:9-35
+	android:theme
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:21:9-40
+activity#com.example.hf_rfid_test.SettingActivity
+ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:23:13-44
+activity#com.example.hf_rfid_test.MainActivity
+ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:25:9-31:20
+	android:name
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:25:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml
+MERGED from [DeviceAPI20220518.aar] C:\Users\song.lin\.gradle\caches\transforms-3\75e2d505aa23bd9384ebe4c641bccccb\transformed\jetified-DeviceAPI20220518\AndroidManifest.xml:7:5-9:41
+MERGED from [DeviceAPI20220518.aar] C:\Users\song.lin\.gradle\caches\transforms-3\75e2d505aa23bd9384ebe4c641bccccb\transformed\jetified-DeviceAPI20220518\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\song.lin\.gradle\caches\transforms-3\757ac581af73127aa40b33969052b5fc\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\song.lin\.gradle\caches\transforms-3\757ac581af73127aa40b33969052b5fc\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.GrenderG:Toasty:1.5.2] C:\Users\song.lin\.gradle\caches\transforms-3\1cf790b19c1d0ad9aa751b711549f6ff\transformed\jetified-Toasty-1.5.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.GrenderG:Toasty:1.5.2] C:\Users\song.lin\.gradle\caches\transforms-3\1cf790b19c1d0ad9aa751b711549f6ff\transformed\jetified-Toasty-1.5.2\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\song.lin\.gradle\caches\transforms-3\c3ab16baca6abfde70e8f5c89a9ac24b\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\song.lin\.gradle\caches\transforms-3\c3ab16baca6abfde70e8f5c89a9ac24b\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\song.lin\.gradle\caches\transforms-3\17cf84b81ba042612a0d368da803e085\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\song.lin\.gradle\caches\transforms-3\17cf84b81ba042612a0d368da803e085\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\8c3548349ef77025047016c5dda9432d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\8c3548349ef77025047016c5dda9432d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\song.lin\.gradle\caches\transforms-3\b5ed735c905bd3d7f997e1f6bf67e6a1\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\song.lin\.gradle\caches\transforms-3\b5ed735c905bd3d7f997e1f6bf67e6a1\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\701387eaa3926e25c2efe37780125bc2\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\701387eaa3926e25c2efe37780125bc2\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\song.lin\.gradle\caches\transforms-3\19abce4f38e1ec6ff27863e8273b917f\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\song.lin\.gradle\caches\transforms-3\19abce4f38e1ec6ff27863e8273b917f\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\song.lin\.gradle\caches\transforms-3\ec231e6b437b7873458e04fb63430f97\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\song.lin\.gradle\caches\transforms-3\ec231e6b437b7873458e04fb63430f97\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\song.lin\.gradle\caches\transforms-3\47be3507980b36b19fef615241ca0625\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\song.lin\.gradle\caches\transforms-3\47be3507980b36b19fef615241ca0625\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\song.lin\.gradle\caches\transforms-3\b32a771f59de6e9c2c0b0d1ce0e93e7e\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\song.lin\.gradle\caches\transforms-3\b32a771f59de6e9c2c0b0d1ce0e93e7e\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\ce4b65830b1091827edac2d515b2582a\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\ce4b65830b1091827edac2d515b2582a\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\79c5cdd8b0c20d3bcf8b46dadc9e5205\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\79c5cdd8b0c20d3bcf8b46dadc9e5205\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\song.lin\.gradle\caches\transforms-3\63af4d2bf75c05c34d851eb10621c0af\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\song.lin\.gradle\caches\transforms-3\63af4d2bf75c05c34d851eb10621c0af\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\3708e1988b77e0b6a64752a8e22c4c94\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\3708e1988b77e0b6a64752a8e22c4c94\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\song.lin\.gradle\caches\transforms-3\97c236ec88dc47a5913bacc9f9c0b820\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\song.lin\.gradle\caches\transforms-3\97c236ec88dc47a5913bacc9f9c0b820\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\556d79d406a12979f80e9ff19df9f274\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\556d79d406a12979f80e9ff19df9f274\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\5b960fd20d38f976ab20889fb9b07c6a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\5b960fd20d38f976ab20889fb9b07c6a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\e973f7de028aa99ab3ab6437bae11189\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\e973f7de028aa99ab3ab6437bae11189\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\song.lin\.gradle\caches\transforms-3\6c6e76d29b58a567cab86834c5bf21eb\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\song.lin\.gradle\caches\transforms-3\6c6e76d29b58a567cab86834c5bf21eb\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] C:\Users\song.lin\.gradle\caches\transforms-3\06dbe87803c37ccbbf4ecfec69e88b49\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] C:\Users\song.lin\.gradle\caches\transforms-3\06dbe87803c37ccbbf4ecfec69e88b49\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\song.lin\.gradle\caches\transforms-3\90f0913e95064c2b5fbcd59a377937d6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\song.lin\.gradle\caches\transforms-3\90f0913e95064c2b5fbcd59a377937d6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\song.lin\.gradle\caches\transforms-3\35f6dcc54accade4b9537b443bfe9c3d\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\song.lin\.gradle\caches\transforms-3\35f6dcc54accade4b9537b443bfe9c3d\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\464543f5f2a2271ad449e22867dfb8ba\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\464543f5f2a2271ad449e22867dfb8ba\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\song.lin\.gradle\caches\transforms-3\89ba21e6952defd433907880bd74e72b\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\song.lin\.gradle\caches\transforms-3\89ba21e6952defd433907880bd74e72b\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\song.lin\.gradle\caches\transforms-3\51d476dd03c1f123666ac7bef71664c6\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\song.lin\.gradle\caches\transforms-3\51d476dd03c1f123666ac7bef71664c6\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\song.lin\.gradle\caches\transforms-3\a7f35749401d9a669b467e3bb2ce2c69\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\song.lin\.gradle\caches\transforms-3\a7f35749401d9a669b467e3bb2ce2c69\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\25ae1df7fbe1a56934cb92b3716d536b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\25ae1df7fbe1a56934cb92b3716d536b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\f54f853ef38a2ce40c06011edf9061cb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\f54f853ef38a2ce40c06011edf9061cb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\9573ae127da8c395d39451042d90c7a8\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\9573ae127da8c395d39451042d90c7a8\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\8a62adf2d8de9439e41e9c6e2cee6622\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\8a62adf2d8de9439e41e9c6e2cee6622\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\song.lin\.gradle\caches\transforms-3\7a27a0c9ed2e422ef89efa6b0f94400e\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\song.lin\.gradle\caches\transforms-3\7a27a0c9ed2e422ef89efa6b0f94400e\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\song.lin\.gradle\caches\transforms-3\7e18f1ed63cde7f02c8501831fbead59\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\song.lin\.gradle\caches\transforms-3\7e18f1ed63cde7f02c8501831fbead59\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\9a4a1f57159e50cb8444b8198ee5a9f1\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\9a4a1f57159e50cb8444b8198ee5a9f1\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\abb91d020619b484ebe99b8d01ea6d71\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\abb91d020619b484ebe99b8d01ea6d71\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\f1c14a6fd37e7451db986370879d8977\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\song.lin\.gradle\caches\transforms-3\f1c14a6fd37e7451db986370879d8977\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [DeviceAPI20220518.aar] C:\Users\song.lin\.gradle\caches\transforms-3\75e2d505aa23bd9384ebe4c641bccccb\transformed\jetified-DeviceAPI20220518\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from [DeviceAPI20220518.aar] C:\Users\song.lin\.gradle\caches\transforms-3\75e2d505aa23bd9384ebe4c641bccccb\transformed\jetified-DeviceAPI20220518\AndroidManifest.xml:12:22-71

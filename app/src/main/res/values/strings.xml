@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">hf_rfid_test</string>
+
+
+    <string name="text_1">橘键扫码</string>
+    <string name="text_2">读标签</string>
+    <string name="text_3">写文本入标签</string>
+    <string name="text_4">写二维码入标签</string>
+    <string name="text_5">我的文件</string>
+    <string name="text_6">我的日程</string>
+    <string name="text_7">扫码功能使用(Ver.2023 04)\n1.点击‘二维码’文本框获取焦点\n2.按下设备两侧橘键开始扫码</string>
+    <string name="text_8">   标签长度:</string>
+
+    <string-array name="UHFArrayBank">
+        <item>RESERVED</item>
+        <item>EPC</item>
+        <item>TID</item>
+        <item>USER</item>
+    </string-array>
+
+</resources>

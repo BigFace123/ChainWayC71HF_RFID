@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = 'hf_rfid_test'

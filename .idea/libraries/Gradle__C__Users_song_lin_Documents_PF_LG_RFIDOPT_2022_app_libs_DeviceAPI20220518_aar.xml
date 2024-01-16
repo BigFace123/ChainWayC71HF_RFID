@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: C./Users/song.lin/Documents/PF_LG_RFIDOPT_2022/app/libs/DeviceAPI20220518.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/75e2d505aa23bd9384ebe4c641bccccb/transformed/jetified-DeviceAPI20220518/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/75e2d505aa23bd9384ebe4c641bccccb/transformed/jetified-DeviceAPI20220518/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/75e2d505aa23bd9384ebe4c641bccccb/transformed/jetified-DeviceAPI20220518/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

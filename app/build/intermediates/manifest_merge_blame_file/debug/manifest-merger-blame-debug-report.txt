@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.hf_rfid_test"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:6:5-65
+12-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:6:22-62
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:7:5-66
+13-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:7:22-63
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:8:5-80
+14-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:8:22-77
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:9:5-67
+15-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /> <!-- 允许应用程序改变WIFI连接状态 -->
+16-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- 允许应用程序访问有关的网络信息 -->
+17-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:11:5-76
+17-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:11:22-73
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 允许应用程序访问WIFI网卡的网络信息 -->
+18-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:12:5-79
+18-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:13:5-76
+19-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:13:22-73
+20    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+20-->[DeviceAPI20220518.aar] C:\Users\song.lin\.gradle\caches\transforms-3\75e2d505aa23bd9384ebe4c641bccccb\transformed\jetified-DeviceAPI20220518\AndroidManifest.xml:12:5-74
+20-->[DeviceAPI20220518.aar] C:\Users\song.lin\.gradle\caches\transforms-3\75e2d505aa23bd9384ebe4c641bccccb\transformed\jetified-DeviceAPI20220518\AndroidManifest.xml:12:22-71
+21
+22    <application
+22-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:15:5-32:19
+23        android:allowBackup="true"
+23-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:16:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.5.0] C:\Users\song.lin\.gradle\caches\transforms-3\06dbe87803c37ccbbf4ecfec69e88b49\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:17:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:18:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:19:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:20:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme" >
+31-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:21:9-40
+32        <activity
+32-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:22:9-24:40
+33            android:name="com.example.hf_rfid_test.SettingActivity"
+33-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:23:13-44
+34            android:exported="false" />
+34-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:24:13-37
+35        <activity android:name="com.example.hf_rfid_test.MainActivity" >
+35-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:25:9-31:20
+35-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:25:19-47
+36            <intent-filter>
+36-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:26:13-30:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:27:17-69
+37-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:27:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:29:17-77
+39-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:29:27-74
+40            </intent-filter>
+41        </activity>
+42    </application>
+43
+44</manifest>
