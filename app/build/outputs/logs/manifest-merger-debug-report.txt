@@ -116,6 +116,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\so
 		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:20:9-35
 	android:label
 		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:18:9-41
+	android:launchMode
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:21:9-40
 	android:roundIcon
 		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:19:9-54
 	android:icon
@@ -123,23 +125,17 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\so
 	android:allowBackup
 		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:21:9-40
-activity#com.example.hf_rfid_test.SettingActivity
-ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:22:9-24:40
-	android:exported
-		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:24:13-37
-	android:name
-		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:23:13-44
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:22:9-40
 activity#com.example.hf_rfid_test.MainActivity
-ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:25:9-31:20
+ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:26:9-31:20
 	android:name
-		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:25:19-47
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:26:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:26:13-30:29
+ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:27:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:27:17-69
+ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:27:25-66
+		ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
 ADDED from C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:29:17-77
 	android:name

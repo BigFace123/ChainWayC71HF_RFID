@@ -237,6 +237,19 @@
                     android:textAlignment="center"
                     android:textSize="18sp" />
 
+                <Button
+                    android:id="@+id/btn_restart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="1sp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10sp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20sp"
+                    android:text="重新启动"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
 
             </LinearLayout>
 

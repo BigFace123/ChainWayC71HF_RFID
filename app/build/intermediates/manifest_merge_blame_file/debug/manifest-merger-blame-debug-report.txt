@@ -52,33 +52,33 @@
 26-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:17:9-43
 27        android:label="@string/app_name"
 27-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:18:9-41
-28        android:roundIcon="@mipmap/ic_launcher_round"
-28-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:19:9-54
-29        android:supportsRtl="true"
-29-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:20:9-35
-30        android:testOnly="true"
-31        android:theme="@style/AppTheme" >
-31-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:21:9-40
-32        <activity
-32-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:22:9-24:40
-33            android:name="com.example.hf_rfid_test.SettingActivity"
-33-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:23:13-44
-34            android:exported="false" />
-34-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:24:13-37
-35        <activity android:name="com.example.hf_rfid_test.MainActivity" >
-35-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:25:9-31:20
-35-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:25:19-47
-36            <intent-filter>
-36-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:26:13-30:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:27:17-69
-37-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:27:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:29:17-77
-39-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:29:27-74
-40            </intent-filter>
-41        </activity>
-42    </application>
-43
-44</manifest>
+28        android:launchMode="singleTask"
+28-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:21:9-40
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:19:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:20:9-35
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme" >
+32-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:22:9-40
+33
+34        <!-- <activity -->
+35        <!-- android:name=".SettingActivity" -->
+36        <!-- android:exported="false" /> -->
+37        <activity android:name="com.example.hf_rfid_test.MainActivity" >
+37-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:26:9-31:20
+37-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:26:19-47
+38            <intent-filter>
+38-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:27:13-30:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:28:17-69
+39-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:28:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:29:17-77
+41-->C:\Users\song.lin\Documents\PF_LG_RFIDOPT_2022\app\src\main\AndroidManifest.xml:29:27-74
+42            </intent-filter>
+43        </activity>
+44    </application>
+45
+46</manifest>

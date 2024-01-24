@@ -8,12 +8,12 @@
         "source": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_pf_logo.png.flat",
         "source": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\pf_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -38,6 +38,10 @@
     {
         "merged": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_pf_logo.png.flat",
         "source": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\pf_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_setting.xml.flat",
@@ -68,6 +72,10 @@
         "source": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
@@ -80,8 +88,16 @@
         "source": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
+        "merged": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
@@ -92,8 +108,12 @@
         "source": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v21_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_pf_logo.png.flat",
@@ -110,6 +130,10 @@
     {
         "merged": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_pf_logo.png.flat",
         "source": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\pf_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\song.lin\\Documents\\PF_LG_RFIDOPT_2022\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",

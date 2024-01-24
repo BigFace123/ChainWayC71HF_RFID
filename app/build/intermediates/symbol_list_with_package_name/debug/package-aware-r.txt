@@ -1065,6 +1065,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color infoColor
 color material_blue_grey_800
 color material_blue_grey_900
@@ -1843,6 +1844,7 @@ id boxid_hex
 id btn_clear
 id btn_readBarcode
 id btn_readRFID
+id btn_restart
 id btn_writeBarcodeToRFID
 id btn_writeRFID
 id buttonPanel

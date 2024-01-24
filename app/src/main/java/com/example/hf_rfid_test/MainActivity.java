@@ -3,6 +3,7 @@ package com.example.hf_rfid_test;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
@@ -36,11 +37,10 @@ public class MainActivity extends Activity {
     private TextView tv_barcode;
     private EditText et_BarCode;
     private Button btn_clear;
-    private Button btn_ufh_setting;
+    private Button btn_restart;
     Button btn_readBarcode;
     Button btn_readRFID;
     Button btn_writeRFID;
-    Button btn_writeRFIDForce;
     Button btn_writeBarcodeRFID;
     EditText et_writeContent;
     EditText et_taglength;
@@ -156,7 +156,7 @@ public class MainActivity extends Activity {
         et_writeContent = this.<EditText>findViewById(R.id.writeContent);
         btn_writeRFID = this.<Button>findViewById(R.id.btn_writeRFID);
         btn_writeRFID.setOnClickListener(v -> {
-            String strData = et_writeContent.getText().toString().trim().toUpperCase();
+            String strData = et_writeContent.getText().toString().trim();
             if (strData.length() != tagLen) {
                 et_writeContent.setText("写入内容长度与设定标签长度不符");
                 return;
@@ -196,7 +196,7 @@ public class MainActivity extends Activity {
         });
 
         //清屏
-        btn_clear = this.<Button>findViewById(R.id.btn_clear);
+        btn_clear = this.findViewById(R.id.btn_clear);
         btn_clear.setOnClickListener(v -> {
             et_writeContent.setText("");
             tv_boxid_hex.setText("");
@@ -204,9 +204,16 @@ public class MainActivity extends Activity {
             et_BarCode.setText("");
         });
 
-        tv_barcode = this.<TextView>findViewById(R.id.barcode);
-        btn_readBarcode = this.<Button>findViewById(R.id.btn_readBarcode);
+        tv_barcode = this.findViewById(R.id.barcode);
+        btn_readBarcode = this.findViewById(R.id.btn_readBarcode);
         btn_readBarcode.setOnClickListener(v -> barcodeDecoder.startScan());
+
+        btn_restart = this.findViewById(R.id.btn_restart);
+        btn_restart.setOnClickListener(v->{
+            Intent intent = getIntent();
+            finish(); // 结束当前 Activity
+            startActivity(intent); // 重新启动应用程序
+        });
     }
 
     @Override
@@ -224,6 +231,11 @@ public class MainActivity extends Activity {
         new InitTask().execute();
     }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
+
     public class InitTask extends AsyncTask<String, Integer, Boolean> {
         ProgressDialog mypDialog;
 
@@ -231,7 +243,8 @@ public class MainActivity extends Activity {
         protected Boolean doInBackground(String... params) {
             Log.d(TAG, "RFID init result: " + mRFID.init());
             barcodeDecoder.open(MainActivity.this);
-            return mRFID.init();
+            mRFID.init();
+            return mRFID.isPowerOn();
         }
 
         @Override
