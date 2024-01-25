@@ -58,6 +58,7 @@ animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
 array UHFArrayBank
+array WriteMode
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -2094,6 +2095,7 @@ id snap
 id snapMargins
 id spacer
 id special_effects_controller_view_tag
+id spin_WriteMode
 id spline
 id split_action_bar
 id spread

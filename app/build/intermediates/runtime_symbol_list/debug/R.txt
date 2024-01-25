@@ -57,6 +57,7 @@ int animator mtrl_fab_show_motion_spec 0x7f020017
 int animator mtrl_fab_transformation_sheet_collapse_spec 0x7f020018
 int animator mtrl_fab_transformation_sheet_expand_spec 0x7f020019
 int array UHFArrayBank 0x7f030000
+int array WriteMode 0x7f030001
 int attr actionBarDivider 0x7f040000
 int attr actionBarItemBackground 0x7f040001
 int attr actionBarPopupTheme 0x7f040002
@@ -2093,6 +2094,7 @@ int id snap 0x7f090155
 int id snapMargins 0x7f090156
 int id spacer 0x7f090157
 int id special_effects_controller_view_tag 0x7f090158
+int id spin_WriteMode 0x7f0901b3
 int id spline 0x7f090159
 int id split_action_bar 0x7f09015a
 int id spread 0x7f09015b

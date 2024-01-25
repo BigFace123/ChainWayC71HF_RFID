@@ -24,6 +24,8 @@ import com.rscja.deviceapi.RFIDWithISO15693;
 import com.rscja.deviceapi.entity.ISO15693Entity;
 import com.rscja.deviceapi.exception.ConfigurationException;
 
+import java.util.Objects;
+
 import es.dmoral.toasty.Toasty;
 
 
@@ -45,7 +47,7 @@ public class MainActivity extends Activity {
     EditText et_writeContent;
     EditText et_taglength;
     EditText et_tagStartAddr;
-    Spinner memBank;
+    Spinner spin_WriteMode;
     int tagLen = 0;
     String seldata = "ASCII";
     String filePath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/RFIDRECORD.txt";
@@ -114,12 +116,12 @@ public class MainActivity extends Activity {
             }
         });
 
-        barcodeDecoder.setDecodeCallback((BarcodeDecoder.DecodeCallback) barcodeEntity -> {
+        barcodeDecoder.setDecodeCallback(barcodeEntity -> {
             if (barcodeEntity.getResultCode() == BarcodeDecoder.DECODE_SUCCESS) {
                 et_BarCode.setText(barcodeEntity.getBarcodeData());
                 barcodeDecoder.stopScan();
             } else {
-                Toasty.error(MainActivity.this, "读码失败", 500);
+                Toasty.error(MainActivity.this, "读码失败", 500).show();
             }
         });
 
@@ -153,26 +155,49 @@ public class MainActivity extends Activity {
         });
 
         //写RFID
+        spin_WriteMode = this.findViewById(R.id.spin_WriteMode);
         et_writeContent = this.<EditText>findViewById(R.id.writeContent);
         btn_writeRFID = this.<Button>findViewById(R.id.btn_writeRFID);
         btn_writeRFID.setOnClickListener(v -> {
-            String strData = et_writeContent.getText().toString().trim();
-            if (strData.length() != tagLen) {
-                et_writeContent.setText("写入内容长度与设定标签长度不符");
-                return;
-            }
-            if (strData.length() % 4 != 0) {
-                StringBuilder sb = new StringBuilder();
-                sb.append(strData);
-                for (int i = 4 - strData.length() % 4; i > 0; i--) sb.append("0");
-                strData = sb.toString();
-            }
-
-            String writeData = StringUtils.convertStringToHex(strData);
-
-            Toasty.info(MainActivity.this, "写卡中...", 500).show();
             try {
-                mRFID.write(0, tagLen == 1 ? 1 : tagLen * 2 / 4, writeData);
+                Toasty.info(MainActivity.this, "写卡中...", 500).show();
+                String strData = et_writeContent.getText().toString().trim();
+                String writeData = "";
+                if (Objects.equals(spin_WriteMode.getSelectedItem().toString(), "ASCII")) {
+                    //选择ascii字符
+                    if (strData.length() != tagLen) {
+                        et_writeContent.setText("写入内容长度与设定标签长度不符");
+                        return;
+                    }
+                    if (strData.length() % 4 != 0) {
+                        StringBuilder sb = new StringBuilder();
+                        sb.append(strData);
+                        for (int i = 4 - strData.length() % 4; i > 0; i--) sb.append("0");
+                        strData = sb.toString();
+                    }
+                    writeData = StringUtils.convertStringToHex(strData);
+                    mRFID.write(0, tagLen == 1 ? 1 : tagLen * 2 / 4, writeData);
+                } else if (Objects.equals(spin_WriteMode.getSelectedItem().toString(), "HEX")) {
+                    if (!strData.matches("[0-9a-fA-F]+")) {
+                        Toasty.error(this, "字符串中包含非法的HEX字符", 500).show();
+                    }
+                    //选择hex写入
+                    if (strData.length() != tagLen * 2) {
+                        et_writeContent.setText("写入内容长度与设定标签长度不符");
+                        return;
+                    }
+                    if (strData.length() % 8 != 0) {
+                        StringBuilder sb = new StringBuilder();
+                        sb.append(strData);
+                        for (int i = 8 - strData.length() % 8; i > 0; i--) sb.append("30");
+                        strData = sb.toString();
+                    }
+                    writeData = strData;
+                    mRFID.write(0, tagLen/2 == 1 ? 1 : tagLen * 2 / 4, writeData);
+                } else {
+                    Toasty.error(this, "ERROR", 500).show();
+                }
+
                 Toasty.success(MainActivity.this, "写入成功", 500).show();
             } catch (Exception e) {
                 Toasty.error(MainActivity.this, "写入失败", 500).show();
@@ -209,7 +234,7 @@ public class MainActivity extends Activity {
         btn_readBarcode.setOnClickListener(v -> barcodeDecoder.startScan());
 
         btn_restart = this.findViewById(R.id.btn_restart);
-        btn_restart.setOnClickListener(v->{
+        btn_restart.setOnClickListener(v -> {
             Intent intent = getIntent();
             finish(); // 结束当前 Activity
             startActivity(intent); // 重新启动应用程序
